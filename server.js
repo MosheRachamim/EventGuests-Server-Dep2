@@ -8,16 +8,16 @@ var SERVER_PORT = 1337;
 //var SQL_Password = "123456";
 //var SQL_DB_Name = "wiselyev_wisely_app_sit";
 //prod1 (default)
-//var SQL_URL = process.env.DB_HOSTURL || "81.218.117.73";
-//var SQL_User = process.env.DB_USER ||"wiselyev_wiselys";
-//var SQL_Password = process.env.DB_PASSWORD ||"sdasAA@$#FDSDFS";
-//var SQL_DB_Name = process.env.DB_SCHEMA_NAME || "wiselyev_wisely_app_sit";
+var SQL_URL = process.env.DB_HOSTURL || "81.218.117.73";
+var SQL_User = process.env.DB_USER ||"wiselyev_wiselys";
+var SQL_Password = process.env.DB_PASSWORD ||"sdasAA@$#FDSDFS";
+var SQL_DB_Name = process.env.DB_SCHEMA_NAME || "wiselyev_wisely_app_sit";
 
 //prod2 (Dep2)
-var SQL_URL = process.env.DB_HOSTURL || "81.218.117.73";
-var SQL_User = process.env.DB_USER || "wiselyev_leilot_ksumim";
-var SQL_Password = process.env.DB_PASSWORD || "leilot_ksfI!fv9c";
-var SQL_DB_Name = process.env.DB_SCHEMA_NAME || "wiselyev_leilot_ksumim";
+//var SQL_URL = process.env.DB_HOSTURL || "81.218.117.73";
+//var SQL_User = process.env.DB_USER || "wiselyev_leilot_ksumim";
+//var SQL_Password = process.env.DB_PASSWORD || "leilot_ksfI!fv9c";
+//var SQL_DB_Name = process.env.DB_SCHEMA_NAME || "wiselyev_leilot_ksumim";
 
 var express = require('express');
 var app = express();
